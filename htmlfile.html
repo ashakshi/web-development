@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cssfolder.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <title>UIET BANK</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="content"><img src="LOGO.jpg" alt="LOGO" id="image" /></div>
+      <p class="bank_name">UIET National Bank</p>
+      <li><a href="#">About Creater</a></li>
+      <li><a href="#"> E-Services</a></li>
+      <li><a href="#">Customer Care</a></li>
+    </nav>
+
+    <div class="scroll">
+      <marquee direction="left">
+        <span>U.I.E.T BANK</span>
+        <span>U.I.E.T BANK</span>
+        <span>U.I.E.T BANK</span>
+      </marquee>
+    </div>
+
+    <div class="images">
+      <a href="https://en.wikipedia.org/wiki/Loan"
+        ><img
+          src="loan.jpg"
+          id="img1"
+          onmouseover="this.src='loan_text.jpg'"
+          onmouseout="this.src='loan.jpg'"
+      /></a>
+      <a href="https://en.wikipedia.org/wiki/Deposit_(finance)"
+        ><img
+          src="deposit.jpg"
+          alt="deposit"
+          id="img2"
+          onmouseover="this.src='deposit_text.jpg'"
+          onmouseout="this.src='deposit.jpg'"
+      /></a>
+      <a href="https://en.wikipedia.org/wiki/Online_banking"
+        ><img
+          src="netbanking .jpg"
+          alt="onlineBanking"
+          id="img3"
+          onmouseover="this.src='netbanking_text.jpg'"
+          onmouseout="this.src='netbanking.jpg'"
+      /></a>
+      <a href="https://en.wikipedia.org/wiki/Financial_transaction"
+        ><img
+          src="transactions .jpg"
+          alt="transactions"
+          id="img4"
+          onmouseover="this.src='transactions_text.jpg'"
+          onmouseout="this.src='transactions.jpg'"
+      /></a>
+    </div>
+
+    <div class="form">
+      <form>
+        <h3>Register/Login</h3>
+        <label for="name">Name: </label>
+        <div>
+          <input type="text" placeholder="Enter Name" name="myname" id="name" />
+        </div>
+        <label for="gender" id="gender">Gender</label>
+        <div>
+          Female:<input type="radio" id="gender" /> Male:<input
+            type="radio"
+            id="gender"
+          />
+          Others:<input type="radio" id="gender" />
+        </div>
+        <label for="accno">Account Number:</label>
+        <div>
+          <input type="text" placeholder="Account Number" id="accno" />
+        </div>
+        <label for="id">Customer Id: </label>
+        <div>
+          <input type="text" placeholder="Customer Id" />
+        </div>
+        <label for="date">Date:</label>
+        <div>
+          <input type="date" />
+        </div>
+        <label for="age">above 18?</label>
+        <div>
+          <input type="checkbox" />
+        </div>
+        <label for="agee">age(if above 18):</label>
+        <div>
+          <input type="number" placeholder="age" />
+        </div>
+        <label for="card">Card:</label>
+        <div>
+          <select name="cards" id="card">
+            <option value="credit">Credit Card</option>
+            <option value="debit">Debit Card</option>
+            <option value="pre">Prepaid Card</option>
+            <option value="other">Others</option>
+          </select>
+        </div>
+        <div>
+          <input type="submit" class="buttons" />
+          <input type="reset" class="buttons" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

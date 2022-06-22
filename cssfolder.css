@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: darkorange;
+  background-image: url("bg.jpg");
+}
+h3 {
+  margin: 5px;
+  margin-bottom: 20px;
+}
+#image {
+  width: 88px;
+  height: 81px;
+  filter: invert(100%);
+}
+a {
+  text-decoration: none;
+  color: #00f007;
+}
+a:hover {
+  color: rgb(197, 197, 26);
+}
+li {
+  text-decoration: none;
+  display: inline;
+  float: right;
+  margin-top: -146px;
+  padding: 93px;
+  font-size: 21px;
+  font-weight: 900;
+}
+
+span {
+  margin-left: 200px;
+  color: white;
+  font-family: cursive;
+}
+
+.bank_name {
+  float: right;
+  margin-right: 1075px;
+  margin-top: -34px;
+  font-weight: bold;
+  font-size: 23px;
+  font-family: "Fredoka One", cursive;
+}
+.navbar {
+  background-color: #229b52;
+  height: 81px;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll {
+  margin: 0px;
+  background-color: black;
+}
+
+.images {
+  width: 46%;
+  height: 480px;
+  border: 15px solid #0f3115;
+  background-image: url("trial.jpg");
+}
+#img1,
+#img2,
+#img3,
+#img4 {
+  width: 309px;
+  height: 230px;
+  padding: 3px;
+}
+.form {
+  border: 4px solid rgb(196, 216, 16);
+  text-align: center;
+  float: right;
+  margin-top: -508px;
+  margin-right: 71px;
+  width: 467px;
+  background-image: url("trial.jpg");
+}
+input {
+  margin: 6px;
+}
+.buttons {
+  border: 2px solid #040604;
+  margin-top: 26px;
+  border-radius: 11px;
+  font-size: 18px;
+  color: #d40000;
+  font-weight: bold;
+}
